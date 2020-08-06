@@ -6,7 +6,7 @@ Scripts used to produce the results in: "Online anomaly detection leveraging str
 ### Miniconda Installation
 Please skip these steps (go to Environment) if you have CONDA or Miniconda alredy installed. 
 1) Install Miniconda Python3.8 following the regular installation instructions: https://conda.io/projects/conda/en/latest/user-guide/install/index.html. You can download the installer from here: https://docs.conda.io/en/latest/miniconda.html#linux-installers
-2) Activate miniconda environment: `'source miniconda3/bin/activate'`
+2) Activate miniconda environment. You can manually activate it with: `'source ~/miniconda3/bin/activate'`
 3) Check python version: `'python --version'`. The output should be `'Python 3.8.3'`
 
 ### Environment
