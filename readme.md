@@ -20,7 +20,8 @@ Please skip these steps (go to Environment) if you have CONDA or Miniconda alred
 2) Move to the main directory of the repository
 3) Move to ods/ and install ods `'python setup.py install'`
 4) Move back to the main directory of the repository and run jupyter `'jupyter notebook'`
-=> Package versions: 
+
+=> Package version: 
 
 ### Results
 To reproduce the results, please follow the instructions. Notice that the repository is organized as follows: 
