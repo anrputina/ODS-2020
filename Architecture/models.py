@@ -630,17 +630,15 @@ class Model(object):
 			elif self.model == 'rrcf':
 				for tree_size in self.parameters['tree_size']:
 					for contamination in self.parameters['contamination']:
-						for test_id in range(10):
-							for name_current_data, curren_data in self.data.items():
-								tasks.append({
-										'dataset':curren_data['dataset'],
-										'node': curren_data['node'],
-										'tree_size': tree_size,
-										'contamination': contamination,
-										'id': task_id,
-										'test_id': test_id
-									})
-								task_id += 1
+						for name_current_data, curren_data in self.data.items():
+							tasks.append({
+									'dataset':curren_data['dataset'],
+									'node': curren_data['node'],
+									'tree_size': tree_size,
+									'contamination': contamination,
+									'id': task_id
+								})
+							task_id += 1
 			else:
 				sys.exit('Unkown model for tasks')
 
@@ -724,15 +722,13 @@ class Model(object):
 								'window': 50
 							})
 			elif self.model == 'rrcf':
-				for test_id in range(10):
 					for name_current_data, curren_data in self.data.items():
 						if self.features_set == 'ALL':
 							tasks.append({
 									'dataset': curren_data['dataset'],
 									'node': curren_data['node'],
 									'tree_size': 95,
-									'contamination':0.03,
-									'test_id': test_id
+									'contamination':0.03
 								})
 
 			elif self.model == 'ods':

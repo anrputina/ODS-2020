@@ -16,12 +16,12 @@ Please skip these steps (go to Environment) if you have CONDA or Miniconda alred
 ### Packages Installation
 
 1) Install conda packages `'conda install numpy pandas scikit-learn matplotlib jupyter seaborn'` 
-2) Install pip packages `'pip install fibheap rrcf'`
+2) Install pip packages `'pip install fibheap rrcf statsmodels'`
 2) Move to the main directory of the repository
 3) Move to ods/ and install ods `'python setup.py install'`
 4) Move back to the main directory of the repository and run jupyter `'jupyter notebook'`
 
-=> Package version: numpy==1.19.1 pandas==1.0.5 scikit-learn==0.23.1 matplotlib==3.2.2 seaborn==0.10.1 jupyter==1.0.0 fibheap==0.2.1 rrcf==0.4.3 ods=0.0.1
+=> Package version: numpy==1.19.1 pandas==1.0.5 scikit-learn==0.23.1 matplotlib==3.2.2 seaborn==0.10.1 jupyter==1.0.0 fibheap==0.2.1 rrcf==0.4.3 ods=0.0.1 statsmodels==0.11.1
 
 ### Results
 To reproduce the results, please follow the instructions. Notice that the repository is organized as follows: 
