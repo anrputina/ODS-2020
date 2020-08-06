@@ -21,7 +21,7 @@ Generate a python virtual environment if python>=3.6
 
 Skip these steps if you already generated a conda environment.
 
-1) Generate a python virtual env `'virtualenv ods_env -p python3'`
+1) Generate a python virtual env `'virtualenv ods_env'`
 2) Activate the environment `'source ./ods_env/bin/activate'`
 
 ### Libraries Installation
