@@ -3,33 +3,24 @@
 
 Scripts used to produce the results in: "Online anomaly detection leveraging stream-based clustering and real-time telemetry"
 
-### Installation
-The libraries used in these scripts require python>=3.6
+### Miniconda Installation
+Please skip these steps (go to Environment) if you have CONDA or Miniconda alredy installed. 
+1) Install Miniconda Python3.8 following the regular installation instructions: https://conda.io/projects/conda/en/latest/user-guide/install/index.html. You can download the installer from here: https://docs.conda.io/en/latest/miniconda.html#linux-installers
+2) Activate miniconda environment: `'source miniconda3/bin/activate'`
+3) Check python version: `'python --version'`. The output should be `'Python 3.8.3'`
 
-1) You can skip to (Python Virtual Environment) if python>=3.6 and generate a virtual environment.
-
-2) If python<3.6 you have to generate a conda environment and install python 3.6
-
-#### Conda Environment
-You can skip these steps if python>=3.6 and generate a python virtual environment 
-
-1) Generate a conda virtual environment `'conda create --name ods_env python=3.6'`
+### Environment
+1) Generate a conda virtual environment `'conda create --name ods_env python=3.8'`
 2) Activate the environment `'conda activate ods_env'`
 
-#### Python Virtual Environment
-Generate a python virtual environment if python>=3.6
+### Packages Installation
 
-Skip these steps if you already generated a conda environment.
-
-1) Generate a python virtual env `'virtualenv ods_env'`
-2) Activate the environment `'source ./ods_env/bin/activate'`
-
-### Libraries Installation
-
-1) Install the libraries `'pip install numpy pandas scikit-learn matplotlib jupyter seaborn fibheap rrcf'` 
+1) Install conda packages `'conda install numpy pandas scikit-learn matplotlib jupyter seaborn'` 
+2) Install pip packages `'pip install fibheap rrcf'`
 2) Move to the main directory of the repository
 3) Move to ods/ and install ods `'python setup.py install'`
 4) Move back to the main directory of the repository and run jupyter `'jupyter notebook'`
+=> Package versions: 
 
 ### Results
 To reproduce the results, please follow the instructions. Notice that the repository is organized as follows: 
