@@ -1,44 +1,44 @@
 Fig. 4. Hyperparameter selection. The plots are produced i) running the hyperparameter grid search first and ii) generating the figure afterwards:
 
 - DBScan
-	- Move to dbscan/
-	- Run [dbscan_grid_search.ipynb] to test the parameters. The results are saved in ./dbscan/Results/. 
-	- NOTE: 1) The process is very long. 2) It uses multiprocessing - MAX_PROCESSES tasks in parallel. MAX_PROCESSES=30 (modify at will) 
+	1. Move to dbscan/
+	2. Run [dbscan_grid_search.ipynb] to test the parameters. The results are saved in ./dbscan/Results/. 
+	3. NOTE: 1) The process is very long. 2) It uses multiprocessing - MAX_PROCESSES tasks in parallel. MAX_PROCESSES=30 (modify at will) 
 - LOF
-	- Move to lof/
-	- Run [lof_grid_search.ipynb] to test the parameters. The results are saved in: ./lof/Results/
-	- NOTE: 1) The process is very long. 2) It uses multiprocessing - MAX_PROCESSES tasks in parallel. MAX_PROCESSES=30 (modify at will)    
+	1. Move to lof/
+	2. Run [lof_grid_search.ipynb] to test the parameters. The results are saved in: ./lof/Results/
+	3. NOTE: 1) The process is very long. 2) It uses multiprocessing - MAX_PROCESSES tasks in parallel. MAX_PROCESSES=30 (modify at will)    
 - wDBScan
-	- Move to wdbscan/
-	- Run [wdbscan_grid_search.ipynb] to test the parameters. The results are saved in ./wdbscan/Results/
-	- NOTE: 1) The process is very long. 2) It uses multiprocessing - MAX_PROCESSES tasks in parallel. MAX_PROCESSES=30 (modify at will) 
+	1. Move to wdbscan/
+	2. Run [wdbscan_grid_search.ipynb] to test the parameters. The results are saved in ./wdbscan/Results/
+	3. NOTE: 1) The process is very long. 2) It uses multiprocessing - MAX_PROCESSES tasks in parallel. MAX_PROCESSES=30 (modify at will) 
 - ExactSTORM
-	- Move to exacstorm/
-	- Run [wdbscan_grid_search.ipynb] to test the parameters. The results are saved in ./exactstorm/Results/
-	- NOTE: 1) The process is very long. 2) It uses multiprocessing - MAX_PROCESSES tasks in parallel. MAX_PROCESSES=30 (modify at will)     
+	1. Move to exacstorm/
+	2. Run [wdbscan_grid_search.ipynb] to test the parameters. The results are saved in ./exactstorm/Results/
+	3. NOTE: 1) The process is very long. 2) It uses multiprocessing - MAX_PROCESSES tasks in parallel. MAX_PROCESSES=30 (modify at will)     
 - COD
-	- Move to COD/
-	- Run [wdbscan_grid_search.ipynb] to test the parameters. The results are saved in ./COD/Results/
-	- NOTE: 1) The process is very long. 2) It uses multiprocessing - MAX_PROCESSES tasks in parallel. MAX_PROCESSES=30 (modify at will) 
+	1. Move to COD/
+	2. Run [wdbscan_grid_search.ipynb] to test the parameters. The results are saved in ./COD/Results/
+	3. NOTE: 1) The process is very long. 2) It uses multiprocessing - MAX_PROCESSES tasks in parallel. MAX_PROCESSES=30 (modify at will) 
 - RRCF
-	- Move to RRCF/
-	- Run [wdbscan_grid_search.ipynb] to test the parameters. The results are saved in ./RRCF/Results/
-	- NOTE: 1) The process is very long. 2) It uses multiprocessing - MAX_PROCESSES tasks in parallel. MAX_PROCESSES=30 (modify at will)   
+	1. Move to RRCF/
+	2. Run [wdbscan_grid_search.ipynb] to test the parameters. The results are saved in ./RRCF/Results/
+	3. NOTE: 1) The process is very long. 2) It uses multiprocessing - MAX_PROCESSES tasks in parallel. MAX_PROCESSES=30 (modify at will)   
   
 - Generate Figure
-	- Move to main directory.
-	- Move to Results/GridHeatmap/
-	- Run [dbscan_wdbdscan_lof_grid.ipynb]. The script loads the results from Experiments/dbscan/Results/, Experiments/wdbscan/Results/ and Experiments/lof/Results and generates the figure.
+	1. Move to main directory.
+	2. Move to Results/GridHeatmap/
+	3. Run [dbscan_wdbdscan_lof_grid.ipynb]. The script loads the results from Experiments/dbscan/Results/, Experiments/wdbscan/Results/ and Experiments/lof/Results and generates the figure.
 
 Fig. 5. ODS Hyperparameter selection:
   1. Move to ods/ParametersSelection/
   2. Run [k_std.ipynb] to test the impact of kr and generate the figure. The figure is saved in ./ods/Results/
-  3. NOTE: It uses multiprocessing - MAX_PROCESSES tasks in parallel. MAX_PROCESSES=4 (modify at will)
+  3. NOTE: It uses multiprocessing - MAX_PROCESSES tasks in parallel. MAX_PROCESSES=30 (modify at will)
   
 Fig. 6. ODS Hyperparameter selection:
   1. Move to ods/ParametersSelection/
   2. Run [lambda_vs_beta.ipynb] to test the impact of lambda and beta. The figure is saved in ./ods/Results/
-  3. NOTE: It uses multiprocessing - MAX_PROCESSES tasks in parallel. MAX_PROCESSES=4 (modify at will)
+  3. NOTE: It uses multiprocessing - MAX_PROCESSES tasks in parallel. MAX_PROCESSES=30 (modify at will)
 
 Fig. 7. wDBScan (left) vs ODS (right) model evolution over time: The plots are produced i) running the algorithms and exporting the variables first and ii) generating the figure afterwards:
   1. Move to z-model-evolution/
