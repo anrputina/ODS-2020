@@ -37,7 +37,7 @@ To reproduce the results, please follow the instructions. Notice that the reposi
 1) The models and data processing functions are present in Architecture/
 2) The data is stored in Data/ while the ground truth can be found in GroundTruth/
 3) ods/ contains the source code of ODS. The folder is the clone of https://github.com/anrputina/ods
-4) Experiments/ contains, for each method, the scripts to produce tuning and testing results together with figures.
+4) Experiments/ contains, for each method, the scripts to produce tuning and testing results.
 
 Figures and Tables:
 - Fig. 3 Dataset at a glance: Move to Data/ and follow instructions in readme.
