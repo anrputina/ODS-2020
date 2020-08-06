@@ -26,7 +26,7 @@ Skip these steps if you already generated a conda environment.
 
 ### Libraries Installation
 
-1) Install the libraries `'pip install numpy==1.16.2 pandas==0.24.2 scikit-learn==0.20.2 matplotlib==3.3.0 jupyter==1.0.0 seaborn==0.10.1 fibheap==0.2.1 rrcf==0.4.3'`
+1) Install the libraries `'pip install numpy pandas scikit-learn matplotlib jupyter seaborn fibheap rrcf'` 
 2) Move to the main directory of the repository
 3) Move to ods/ and install ods `'python setup.py install'`
 4) Move back to the main directory of the repository and run jupyter `'jupyter notebook'`
