@@ -1,0 +1,72 @@
+{
+	"datasets":{
+		"BGP_testbed_2":{
+			"name":"BGP_testbed_2",
+			"directory":"Data/BGP_testbed_2/",
+			"nodes":[
+				"leaf1","leaf2", "leaf3",
+				"leaf5","leaf6", "leaf7", "leaf8",
+				"spine1","spine2", "spine3", "spine4"
+			],
+			"filename":"_bgpclear.csv_bytes_diff.gz",
+			"groundtruth":"GroundTruth/BGP_testbed_2.csv",
+			"eventEND":120
+		},
+		"BGP_testbed_3":{
+			"name":"BGP_testbed_3",
+			"directory":"Data/BGP_testbed_3/",
+			"nodes":[
+				"leaf1","leaf2", "leaf3",
+				"leaf5","leaf6", "leaf7", "leaf8",
+				"spine1","spine2", "spine3", "spine4"
+			],
+			"filename":"_bgpclear08042017.csv_bytes_diff.gz",
+			"groundtruth":"GroundTruth/BGP_testbed_3.csv",
+			"eventEND":120	
+		},
+		"BGP_testbed_5":{
+			"name":"BGP_testbed_5",
+			"directory":"Data/BGP_testbed_5/",
+			"nodes":[
+				"leaf1","leaf2", "leaf3",
+				"leaf5","leaf6", "leaf7", "leaf8",
+				"spine1","spine2", "spine3", "spine4"
+			],
+			"filename":"_bgpclear_apptraffic_2hourRun.csv_bytes_diff.gz",
+			"groundtruth":"GroundTruth/BGP_testbed_5.csv",
+			"eventEND":180
+		},		
+		"BGP_testbed_9":{
+			"name":"BGP_testbed_9",
+			"directory":"Data/BGP_testbed_9/",
+			"nodes":[
+				"leaf1", "leaf2", "leaf3",
+				"leaf5", "leaf6", "leaf7", "leaf8",
+				"spine1","spine2", "spine3", "spine4"
+			],
+			"filename":"_admin_down_20180724_45m.csv_bytes_diff.gz",
+			"groundtruth":"GroundTruth/BGP_testbed_9.csv",
+			"eventEND":180
+		},
+		"BGP_testbed_10":{
+			"name":"BGP_testbed_10",
+			"directory":"Data/BGP_testbed_10/",
+			"nodes":[
+				"leaf1","leaf2", "leaf3",
+				"leaf5","leaf6", "leaf7", "leaf8",
+				"spine1","spine2", "spine3", "spine4"
+			],
+			"filename":"_transceiver_pull_20180413_35m.csv_bytes_diff.gz",
+			"groundtruth":"GroundTruth/BGP_testbed_10.csv",
+			"eventEND":180
+		}
+	},
+	"tuning_configuration":{
+		"datasets":["BGP_testbed_2", "BGP_testbed_3"]
+	},
+	"test_configuration":{
+		"datasets":["BGP_testbed_2", "BGP_testbed_3",
+					"BGP_testbed_5",
+					"BGP_testbed_9", "BGP_testbed_10"]
+	}
+}

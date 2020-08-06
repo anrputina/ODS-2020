@@ -1,0 +1,13 @@
+Node,Host,Start,Event,Description
+leaf3,None,1519090293,clearBGP,event1
+spine4,None,1519090901,clearBGP,event2
+leaf4,None,1519091509,clearBGP,event3
+leaf8,None,1519092116,clearBGP,event4
+leaf5,None,1519092724,clearBGP,event5
+spine2,None,1519093331,clearBGP,event6
+leaf7,None,1519093939,clearBGP,event7
+leaf1,None,1519094546,clearBGP,event8
+leaf6,None,1519095153,clearBGP,event9
+spine1,None,1519095761,clearBGP,event10
+spine3,None,1519096368,clearBGP,event11
+leaf2,None,1519096976,clearBGP,event12

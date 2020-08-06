@@ -1,0 +1,6 @@
+Node,Host,Start,Event,Description
+spine1,None,1532645820,admindown,event1
+leaf5,None,1532646295,admindown,event2
+leaf7,None,1532646599,admindown,event3
+spine4,None,1532647232,admindown,event4
+dr02,None,1532647595,admindown,event5

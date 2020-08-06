@@ -1,0 +1,6 @@
+Node,Host,Start,Event,Description
+spine1,None,1523638503,transceiver_pull,event1
+leaf4,None,1523638873,transceiver_pull,event2
+leaf8,None,1523639240,transceiver_pull,event3
+spine3,None,1523639556,transceiver_pull,event4
+dr01,None,1523639879,transceiver_pull,event5

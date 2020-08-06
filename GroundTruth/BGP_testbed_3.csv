@@ -1,0 +1,9 @@
+Node,Host,Start,Event,Type
+leaf1,None,1501867185,clearBGP,event1
+leaf6,None,1501867479,clearBGP,event2
+spine2,None,1501867782,clearBGP,event3
+leaf2,None,1501868089,clearBGP,event4
+leaf8,None,1501868119,clearBGP,event5
+spine1,None,1501868382,clearBGP,event6
+spine2,None,1501868427,clearBGP,event7
+spine3,None,1501868472,clearBGP,event8
