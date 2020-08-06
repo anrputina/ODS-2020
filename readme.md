@@ -16,7 +16,7 @@ Please skip these steps (go to Environment) if you have CONDA or Miniconda alred
 ### Packages Installation
 
 1) Install conda packages `'conda install numpy pandas scikit-learn matplotlib jupyter seaborn'` 
-2) Install pip packages `'pip install fibheap rrcf statsmodels'`
+2) Install pip packages `'pip install fibheap rrcf statsmodels'`. Run `'pip install --no-cache-dir fibheap rrcf statsmodels'` if you get Hash error.
 2) Move to the main directory of the repository
 3) Move to ods/ and install ods `'python setup.py install'`
 4) Move back to the main directory of the repository and run jupyter `'jupyter notebook'`
