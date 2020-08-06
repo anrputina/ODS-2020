@@ -91,3 +91,8 @@ Fig. 10 and Fig. 11 - Running Time and Scatter Plot. The results are produced by
   3. Generate the figure
     	1. Move back to Experiments/z3-complexity_analysis/
     	2. Run [running_time_plot.ipynb] which loads the measurements from ExecutionTime/ and generates Fig. 10 and Fig. 11
+	
+Table IV - ODS vs RRCF: 
+  1. Move to z4-ods_vs_rrcf_scores/
+  2. Run [run_ods_rrcf_scores.ipynb] which runs the models and saves the anonaly scores in ods_scores.pkl and rrcf_scores.pkd
+  3. Run [parse_scores.ipynb] to load the scores and process them.

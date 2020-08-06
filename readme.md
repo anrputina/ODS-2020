@@ -40,8 +40,7 @@ Figures and Tables:
 - Fig. 8. Algorithms Performance Comparison: Move to Experiments/ and follow instructions in readme.
 - Fig. 9. Algorithms Performance Comparison: Move to Experiments/ and follow instructions in readme.
 - Fig. 10 - Running Time: Move to Experiments/ and follow instructions in readme.
-
-
+- Table IV - ODS vs RRCF: Move to Experiments and follow instruction in readme
 
 
   
