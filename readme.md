@@ -13,8 +13,8 @@ The libraries used in these scripts require python>=3.6
 #### Conda Environment
 You can skip these steps if python>=3.6 and generate a python virtual environment 
 
-1) Generate a conda virtual environment `'conda create --name ods python=3.6'`
-2) Activate the environment `'conda activate ods'`
+1) Generate a conda virtual environment `'conda create --name ods_env python=3.6'`
+2) Activate the environment `'conda activate ods_env'`
 
 #### Python Virtual Environment
 Generate a python virtual environment if python>=3.6
